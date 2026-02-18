@@ -29,8 +29,8 @@ body {
   margin-top: 20px;
 }
 
-.search-form:not(:last-child) {
-  margin-bottom: 20px;
+.search-form + .search-form {
+  margin-top: 20px;
 }
 
 .search-form__input {
