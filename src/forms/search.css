@@ -29,7 +29,7 @@ body {
   margin-top: 20px;
 }
 
-.search-form--big:not(:last-child) {
+.search-form:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -46,7 +46,6 @@ body {
   background-position: 26px center;
   transition: all 0.3s ease;
   height: 70px;
-  font-weight: 400;
 }
 
 .search-form__input::placeholder {
@@ -65,7 +64,6 @@ body {
     rgba(255, 255, 255, 1) 0%,
     rgba(246, 246, 247, 1) 100%
   );
-  font-weight: 400;
 }
 
 .search-form--small .search-form__input {
